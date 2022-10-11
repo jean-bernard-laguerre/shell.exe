@@ -6,4 +6,4 @@ do
       sudo usermod -aG sudo "$Prenom-$Nom"
       groups "$Prenom-$Nom"
    fi
-done < <(tail -n +2 $1)
+done < <(tail -n +2 Shell_Userlist.csv)
