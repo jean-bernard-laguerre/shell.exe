@@ -1,0 +1,4 @@
+crontab -e
+
+dans l'editeur
+0 * * * *  cd /home/jb/GIT/shell.exe/Job_8 && ./get_logs.sh
