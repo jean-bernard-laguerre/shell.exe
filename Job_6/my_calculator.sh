@@ -1,15 +1,15 @@
-if [ $2 == "+" ]
-then
-	echo "$1+$3" | bc
-elif [ $2 == "-" ]
-then
-	echo "$1-$3" | bc
-elif [ $2 == "x" ]
-then
-	echo "$1*$3" | bc -l
-elif [ $2 == "/" ]
-then
-        echo "$1/$3" | bc -l
-else
-	echo "operateur invalide"
-fi
+#!/bin/bash
+
+case $2 in
+   "+") echo "$1+$3" | bc
+        ;;
+   "-") echo "$1-$3" | bc
+        ;;
+   "x") echo "$1*$3" | bc -l
+        ;;
+   "/") echo "$1/$3" | bc -l
+        ;;
+     *)
+        echo "operateur invalide"
+        ;;
+esac
