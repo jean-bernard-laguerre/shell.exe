@@ -14,4 +14,7 @@ Id,Prenom,Nom,Mdp,Rôle
 1013,Harper,McIntyre,SDd89T,User
 1014,Maya,Vie,gH78K9,User
 1015,Thelonious,Jaha,hgv89P,Admin
+<<<<<<< HEAD
 1016,Kyle,Wick,erg56T,User
+=======
+>>>>>>> 928a76dfadf45a52a6221001e9eaad9780f7b8e3

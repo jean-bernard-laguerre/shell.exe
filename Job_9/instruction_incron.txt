@@ -4,5 +4,9 @@ nano /etc/incron.allow
 ajouter utilisateur
 
 incrontab -e
+<<<<<<< HEAD
 /home/jb/GIT/shell.exe/Job_9/Shell_Userlist.csv IN_MODIFY /bin/bash /home/jb/GIT/shell.exe/Job_9/accessrights.sh
+=======
+/home/jb/GIT/shell.exe/Job_9/Shell_Userlist.csv	IN_MODIFY /home/jb/GIT/shell.exe/Job_9/accessrights.sh
+>>>>>>> 928a76dfadf45a52a6221001e9eaad9780f7b8e3
 
