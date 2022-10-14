@@ -1,0 +1,3 @@
+crontab -e
+
+@reboot cd /home/jb/GIT/shell.exe/Job_10 ./alcasar_login
