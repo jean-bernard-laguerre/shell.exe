@@ -3,5 +3,5 @@
 token=$(curl -L --request GET https://alcasar.laplateforme.io/intercept.php  2>&1 | grep -Po 'name="challenge" value="\K.*?(?=")')
 userurl=$(curl -L --request GET https://alcasar.laplateforme.io/intercept.php 2>&1 | grep -Po 'name="userurl" value="\K.*?(?=")')
 
-curl -v -L -d "challenge=$token&userurl=$userurl&username=$1&password=$2&button=Authentication" https://alcasar.laplateforme.io/intercept.php
+curl -L -d "challenge=$token&userurl=$userurl&username=$1&password=$2&button=Authentication" https://alcasar.laplateforme.io/intercept.php
 
